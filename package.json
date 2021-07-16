@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "fusuma start",
+    "start:prod": "fusuma start-prod",
+    "build": "fusuma build",
+    "deploy": "npm run build && fusuma deploy",
+    "pdf": "npm run build && fusuma pdf"
+  },
+  "name": "first-fusuma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ikegamikanae <fujii_kanae@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "fusuma": "^2.8.4"
+  }
+}
