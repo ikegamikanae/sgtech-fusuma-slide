@@ -6,7 +6,6 @@ meta:
   sns: ['twitter']
 slide:
   loop: false
-  targetblank: true
   ui:
     sidebar: true
     vertical: false
@@ -14,5 +13,9 @@ slide:
     effect: # fade | cube | flip
   code:
     # https://prismjs.com/
-    plugins: []
-    theme: coy  #default # coy | dark | funky | okaidia | solarizedlight | tomorrow | twilight
+    languages:
+      - javascript
+      - html
+    plugins:
+      - line-numbers
+    theme: default # coy | dark | funky | okaidia | solarizedlight | tomorrow | twilight
